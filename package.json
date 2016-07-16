@@ -1,0 +1,28 @@
+{
+  "name": "react-native-inputscrollview",
+  "version": "1.0.2",
+  "description": "输入框位置动态调整",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactnativecn/react-native-inputscrollview.git%22.git"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "键盘遮挡输入框"
+  ],
+  "author": "lvbingru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reactnativecn/react-native-inputscrollview.git%22/issues"
+  },
+  "homepage": "https://github.com/reactnativecn/react-native-inputscrollview.git%22#readme",
+  "dependencies": {
+    "semver":  "^5.1.0"
+  }
+}
