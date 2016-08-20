@@ -112,7 +112,7 @@ export default class InputScrollView extends Component {
           e=>{console.warning(e)},
           (left, top, width, height)=>{
             let keyboardScreenY = Dimensions.get('window').height;
-              if (e) {
+              if (e.endCoordinates) {
                   keyboardScreenY = e.endCoordinates.screenY;
               }
               let scrollOffsetY = top - keyboardScreenY + height + this.props.distance;
