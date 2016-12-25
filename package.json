@@ -1,6 +1,6 @@
 {
   "name": "react-native-inputscrollview",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "输入框位置动态调整",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,8 @@
   "homepage": "https://github.com/reactnativecn/react-native-inputscrollview.git%22#readme",
   "dependencies": {
     "semver":  "^5.1.0"
+  },
+  "peerDependencies": {
+    "react-native": "^0.35.0"
   }
 }
